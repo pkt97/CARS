@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cs2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloud Bank"
+        android:paddingLeft="30dp"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_orange_light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safety in your hands!"
+        android:paddingLeft="35dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:paddingLeft="210dp"
+            android:fontFamily="monospace"
+            android:layout_marginTop="0dp"
+            android:onClick="login"
+            android:id="@+id/b1"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="Register"
+            android:layout_marginTop="0dp"
+            android:fontFamily="monospace"
+            android:onClick="register"
+            android:id="@+id/b2"
+            android:clickable="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="About Us"
+        android:textColor="@android:color/holo_orange_light"
+        android:paddingLeft="15dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:scrollbars="vertical"
+        android:text="We know that cloud is a trending topic in the IT world. But the main issue with cloud has been security and privacy of data that is stored on it. So, we, Cloud Bank handle this issue. We provide best-in-class encryption for your files and make sure that those files are backed up and can be restored whenever an unexpected event occurs. Do try out for an amazing experience."
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+</LinearLayout>
